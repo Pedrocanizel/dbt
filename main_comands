@@ -1,3 +1,5 @@
 dbt run -s +models/model_name_1 +model/model_name_2 -> roda todos os modelos especificados e suas dependências
 
+dbt run -s +models/model +models/model_2 --full-refresh
+
 cat ~/.dbt/profiles.yml -> gera um output das minhas configuraçóes locais
